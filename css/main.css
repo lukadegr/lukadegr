@@ -1,43 +1,173 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url('fonts/Baloo.woff2') format('woff2'),
+        url('fonts/Baloo.woff') format('woff'),
+        url('fonts/Baloo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ALGEMEEN */
 body {
-    margin: 60px auto;
-    width: 70%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	overflow-x: hidden;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 50px;
+	line-height: 110%;
+	margin-bottom: 40px;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+h2 {
+	font-size: 40px;
+	line-height: 110%;
+	margin-bottom: 20px;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+h3 {
+	font-size: 24px;
+	line-height: 110%;
+	margin-top: 6px;
+	margin-bottom: 12px;
+}
+b {font-weight: 600;}
+.baloo {font-family: 'Baloo';}
+.groen {color:#1baca0}
+.rood {color:#ff6d79}
+.geel {color:#ffc14d}
+.wit {color:#ffffff;}
+.zwart {color:#000000;}
+.bg_groen {	background-color: #1baca0; }
+.bg_rood {	background-color: #ff6d79; }
+.bg_geel { background-color: #ffc14d; }
+
+
+/* BOOTSTRAP */
+.btn-primary {
+	font-family: 'Baloo';
+	font-size: 17px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 2px;
+	border-radius: 25px;
+	border:none;
+	box-shadow: none !important;
+}
+.btn-primary.bg_groen {
+	background-color:#489b98;
+}
+.btn-primary.bg_groen:hover {
+	background-color:#179086 !important;
+}
+.btn-primary.bg_rood {
+	background-color:##d16b76;
+}
+.btn-primary.bg_rood:hover {
+	background-color:#d65b66 !important;
+}
+.btn-primary.bg_geel {
+	background-color:#eec344;
+}
+.btn-primary.bg_geel:hover {
+	background-color:#d6a241 !important;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.btn-outline-secondary {
+	text-transform: uppercase;
+	font-weight: 600;
+	border-color: black !important;
+	color:black;
+}
+.btn-outline-secondary:hover {
+	background-color: black !important;
 }
 
-ul.posts li {
-    list-style: none;
+
+/* HEADER */
+header {
+	padding-top:120px;
+	padding-bottom: 100px;
+	position: relative;
 }
+
+.header_boven {
+	z-index: 1000;
+	position: relative;
+}
+.ballon {
+	z-index: 500;
+	position: relative;
+	display: block;
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 140px;
+}
+.ballon img {
+	width: 100%;
+}
+.b1 {
+	margin-top:10px;
+	margin-left:-630px;
+}
+.b2 {
+	margin-top:-220px;
+	margin-left:-750px;
+}
+.b3 {
+	margin-top:-290px;
+	margin-left:-70px;
+}
+.b4 {
+	margin-top:-200px;
+	margin-left:300px;
+}
+.b5 {
+
+	margin-top:-340px;
+	margin-left:580px;
+}
+.b6 {
+	margin-top:-50px;
+	margin-left:520px;
+}
+.b6b {
+	width:90px;
+	margin-top:-190px;
+	margin-left:-430px;
+}
+.b7 {
+	margin-top:120px;
+	margin-left:290px;
+}
+.b8 {
+	margin-top:160px;
+	margin-left:-100px;
+}
+.b9 {
+	margin-top:70px;
+	margin-left:-380px;
+}
+
+
+/* ONDERDELEN */
+.onderdeel {
+	padding:60px;
+	z-index: 1500;
+	position: relative;
+}
+
+.onderdeel_intro {
+	padding-bottom:40px;
+	max-width: 620px;
+	margin: auto;
+}
+
+.onderdeel .card {
+	margin-bottom: 25px;
+}
+
+
+/* FOOTER */
+footer {padding:60px;}
