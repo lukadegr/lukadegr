@@ -30,6 +30,8 @@ font-weight: 100;
   font-family: sofia-pro, sans-serif;
 font-style: normal;
 font-weight: 600;
+padding-left: 50px;
+padding-bottom: 100px;
 }
 .highlight{
   color: #0062ff;
@@ -46,6 +48,7 @@ h3 {
 	margin-top: 6px;
 	margin-bottom: 12px;
 }
+
 
 
 
@@ -80,14 +83,14 @@ font-style: normal;
 font-weight: 400;
 }
 
-.btn-primary {
+.navigatie {
+  text-align: left;
   font-size: 20px;
   line-height: 100%;
   font-family: sofia-pro, sans-serif;
 font-style: normal;
 font-weight: 500;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-right: 50px;
 	margin: 2px;
 	border:none;
 	box-shadow: none !important;
@@ -96,23 +99,58 @@ font-weight: 500;
   color: #0062ff;
 }
 
-.btn-primary.nav:hover {
+.navigatie:hover {
 	background-color: #0062ff !important;
   color: white;
 }
 
-
-
-.logoreveal{
-  margin: auto;
-  height: 100%;
-  width: 750px;
+.margin{
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.logoreveal img{
-  margin: auto;
+
+.image2{
+  padding-top: 100px;
+}
+
+.image2 img{
   display: block;
+  margin: auto;
 }
+
+/* LOGO  */
+
+.logo-intro-p{
+  width: 45%;
+  padding-top: 20px;
+}
+.logozwart,.logowit,.logoopbouw{
+  padding-top: 40px;
+}
+
+
+.logo-onderdeel-wit{
+  padding-top: 100px;
+}
+
+.logo-onderdeel-opbouw{
+  padding-top: 100px;
+}
+
+
+.logo-onderteel-title{
+  color: #0062ff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,17 +169,11 @@ font-weight: 500;
 header {
 	padding-top:30px;
 	padding-bottom: 100px;
-	position: relative;
 }
 
-.header_boven {
-	z-index: 1000;
-	position: relative;
-}
 .ballon {
 	z-index: 500;
 	position: relative;
-	display: block;
 	position: absolute;
 	top:50%;
 	left:50%;
