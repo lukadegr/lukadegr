@@ -1,21 +1,22 @@
 
 
 /* ALGEMEEN */
-body {
+body,html {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	overflow-x: hidden;
   font-family: sofia-pro, sans-serif;
 font-style: normal;
 font-weight: 100;
+height: 100%;
 }
 
-header-title{
-  font-size: 70px;
+.header-title{
+  font-size: 180px;
   line-height: 110%;
   font-family: sofia-pro, sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 }
 
 
@@ -30,7 +31,10 @@ h3 {
 	margin-top: 6px;
 	margin-bottom: 12px;
 }
-b {font-weight: 600;}
+
+
+
+/* BOOTSTRAP
 .baloo {font-family: 'Baloo';}
 .groen {color:#1baca0}
 .rood {color:#ff6d79}
@@ -40,36 +44,46 @@ b {font-weight: 600;}
 .bg_groen {	background-color: #1baca0; }
 .bg_rood {	background-color: #ff6d79; }
 .bg_geel { background-color: #ffc14d; }
-
+*/
 
 /* BOOTSTRAP */
+
+.wiezijnwe{
+  display: flex;
+  justify-content: space-around;
+}
+.text1{
+  width: 30%;
+}
+
+.text1 p{
+  width: 100%;
+  font-size: 20px;
+  line-height: 120%;
+  font-family: sofia-pro, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
 .btn-primary {
-	font-family: 'Baloo';
-	font-size: 17px;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: sofia-pro, sans-serif;
+font-style: normal;
+font-weight: 500;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 2px;
-	border-radius: 25px;
 	border:none;
 	box-shadow: none !important;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0062ff;
 }
-.btn-primary.bg_groen {
-	background-color:#489b98;
-}
-.btn-primary.bg_groen:hover {
-	background-color:#179086 !important;
-}
-.btn-primary.bg_rood {
-	background-color:##d16b76;
-}
-.btn-primary.bg_rood:hover {
-	background-color:#d65b66 !important;
-}
-.btn-primary.bg_geel {
-	background-color:#eec344;
-}
-.btn-primary.bg_geel:hover {
-	background-color:#d6a241 !important;
+
+.btn-primary.nav:hover {
+	background-color: #0062ff !important;
+  color: white;
 }
 
 .btn-outline-secondary {
@@ -85,7 +99,7 @@ b {font-weight: 600;}
 
 /* HEADER */
 header {
-	padding-top:120px;
+	padding-top:30px;
 	padding-bottom: 100px;
 	position: relative;
 }
