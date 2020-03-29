@@ -10,11 +10,15 @@ font-style: normal;
 font-weight: 100;
 }
 
-h1 {
-	font-size: 50px;
-	line-height: 110%;
-	margin-bottom: 40px;
+header-title{
+  font-size: 70px;
+  line-height: 110%;
+  font-family: sofia-pro, sans-serif;
+font-style: normal;
+font-weight: 700;
 }
+
+
 h2 {
 	font-size: 40px;
 	line-height: 110%;
