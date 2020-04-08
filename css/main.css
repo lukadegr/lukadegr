@@ -213,7 +213,7 @@ font-weight: 400;
 
 
 
-
+  /*Image slider:*/
 
 
 
@@ -221,7 +221,7 @@ font-weight: 400;
 
 .img-comp-container {
   position: relative;
-  height: 500px; /*should be the same height as the images*/
+  height: 150px; /*should be the same height as the images*/
 }
 
 .img-comp-img {
@@ -229,6 +229,7 @@ font-weight: 400;
   width: auto;
   height: auto;
   overflow: hidden;
+  padding-top: 50px;
 }
 
 .img-comp-img img {
@@ -244,8 +245,8 @@ font-weight: 400;
   width: 40px;
   height: 40px;
   background-color: #0062ff;
-  opacity: 0.7;
-  border-radius: 50%;
+  opacity: 0.5;
+  border-radius: 70%;
 }
 
 
@@ -253,8 +254,17 @@ font-weight: 400;
 
 
 
+.card-img-top{
+  width: 250px;
+  margin: auto;
+  padding-top: 20px;
+}
 
-
+.card-img-top-2{
+  width: 300px;
+  margin: auto;
+  padding-top: 20px;
+}
 
 
 
