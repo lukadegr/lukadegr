@@ -94,9 +94,7 @@ font-weight: 400;
   line-height: 100%;
   font-family: sofia-pro, sans-serif;
 font-style: normal;
-font-weight: 500;
-	padding-right: 50px;
-	margin: 2px;
+	padding: 50px;
 	border:none;
 	box-shadow: none !important;
   font-weight: 600;
@@ -105,8 +103,8 @@ font-weight: 500;
 }
 
 .navigatie:hover {
-	background-color: #0062ff !important;
-  color: white;
+text-decoration: line-through;
+  color: #0062ff;
 }
 
 
@@ -254,22 +252,6 @@ font-weight: 400;
 
 
 
-.card-img-top{
-  width: 250px;
-  margin: auto;
-  padding-top: 20px;
-}
-
-.card-img-top-2{
-  width: 300px;
-  margin: auto;
-  padding-top: 20px;
-}
-
-
-
-
-
 .btn-outline-secondary {
 	text-transform: uppercase;
 	font-weight: 600;
@@ -344,13 +326,14 @@ header {
 
 /* ONDERDELEN */
 .onderdeel {
-	padding:60px;
-	z-index: 1500;
-	position: relative;
+padding-top: 60px;
 }
-
+.container-kleuren{
+  padding: left;
+  width: 80%;
+}
 .onderdeel_intro {
-	padding-bottom:40px;
+	padding-bottom: 40px;
 	max-width: 620px;
 	margin: auto;
 }
