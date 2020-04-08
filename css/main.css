@@ -24,6 +24,11 @@ font-weight: 100;
 
 }
 
+.margin{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 .header-title{
   font-size: 180px;
   line-height: 110%;
@@ -104,10 +109,6 @@ font-weight: 500;
   color: white;
 }
 
-.margin{
-  margin-left: 150px;
-  margin-right: 150px;
-}
 
 
 .image2{
@@ -312,3 +313,16 @@ header {
 
 /* FOOTER */
 footer {padding:60px;}
+
+
+
+
+
+@media only screen and (min-width: 2000px) {
+  /* For desktop: */
+  .margin{
+    max-width: 1500px;
+    margin: auto;
+
+  }
+}
