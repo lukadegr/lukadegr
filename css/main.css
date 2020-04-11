@@ -107,6 +107,72 @@ text-decoration: line-through;
   color: #0062ff;
 }
 
+.navigatie1 {
+  text-align: left;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: sofia-pro, sans-serif;
+font-style: normal;
+margin-left: 150px;
+	padding: 50px;
+	border:none;
+	box-shadow: none !important;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0062ff;
+}
+
+.navigatie1:hover {
+text-decoration: line-through;
+  color: #0062ff;
+}
+
+
+
+
+/* BOOTSTRAP
+
+.style1-title{
+	font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  color: #0062ff;
+}
+
+.style1-title2{
+	font-weight: 600;
+  font-size: 2.5rem;
+      line-height: 2.5rem;
+  color: #26c485;
+}
+
+.style1-title3{
+	font-weight: 500;
+  font-size: 30px;
+  color: black;
+}
+
+p{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.875rem;
+  color: black;
+  width: 45%;
+}
+ */
+
+
+
+
+/* DesignSystem */
+.h4-title{
+  padding-top: 50px;
+}
+
+
+
+
+
 
 
 .image2{
@@ -181,6 +247,10 @@ font-weight: 400;
 .image3{
   padding-left: 50px;
   justify-content: space-between;
+}
+
+.image4{
+  padding-top: 20px;
 }
 
 
@@ -326,11 +396,15 @@ header {
 
 /* ONDERDELEN */
 .onderdeel {
-padding-top: 60px;
+padding-top: 20px;
+padding-bottom: 80px;
 }
 .container-kleuren{
   padding: left;
   width: 80%;
+}
+.container-kleuren2{
+  padding: left;
 }
 .onderdeel_intro {
 	padding-bottom: 40px;
@@ -341,6 +415,19 @@ padding-top: 60px;
 .onderdeel .card {
 	margin-bottom: 25px;
 }
+
+
+
+.h2-title{
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
 
 
 /* FOOTER */
